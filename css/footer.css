@@ -14,6 +14,7 @@ img {
 .footer-legal-terms {
     width: 25%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -23,7 +24,7 @@ img {
 
 .footer-image {
     height: 150px;
-    width: 150px;
+    width: max-content;
 }
 
 .footer-social-networks {
@@ -60,11 +61,13 @@ img {
 
     .footer-legal-terms {
         width: 90%;
+        flex-direction: row;
     }
 
     .footer-image {
         order: -2;
         margin: 0 auto;
+        height: 75px;
     }
         
     .footer-social-networks {
@@ -75,5 +78,10 @@ img {
     .footer-social-networks-images {
         width: 90%;
         justify-content: space-evenly;
+    }
+
+    .footer-social-networks-images img {
+        height: 35px;
+        width: 35px;
     }
 }
