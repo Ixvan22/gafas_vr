@@ -1,3 +1,24 @@
+/* Color Theme Swatches in Hex */
+.color-theme_logo-1-hex { color: #131D26; }
+.color-theme_logo-2-hex { color: #293940; }
+.color-theme_logo-3-hex { color: #3B5159; }
+.color-theme_logo-4-hex { color: #97A4A6; }
+.color-theme_logo-5-hex { color: #F2F2F0; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_logo-1-rgba { color: rgba(19, 29, 38, 1); }
+.color-theme_logo-2-rgba { color: rgba(41, 57, 64, 1); }
+.color-theme_logo-3-rgba { color: rgba(59, 81, 89, 1); }
+.color-theme_logo-4-rgba { color: rgba(151, 164, 166, 1); }
+.color-theme_logo-5-rgba { color: rgba(242, 242, 240, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_logo-1-hsla { color: hsla(208, 33, 11, 1); }
+.color-theme_logo-2-hsla { color: hsla(198, 21, 20, 1); }
+.color-theme_logo-3-hsla { color: hsla(195, 20, 29, 1); }
+.color-theme_logo-4-hsla { color: hsla(187, 7, 62, 1); }
+.color-theme_logo-5-hsla { color: hsla(60, 7, 94, 1); }
+
 img {
     max-width: 100%;
 }
@@ -7,7 +28,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 150px;
-    background-color: #555555;
+    background-color: #3B5159;
     color: #ffffff;
 }
 
