@@ -54,11 +54,12 @@ img {
 }
 
 .main-description-all-products {
-    padding: 0 10vh;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin: 0 auto;
 }
 
 .main-description-all-products p {
@@ -74,4 +75,27 @@ img {
     width: max-content;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .index-main {
+        gap: 50px;
+    }
+
+    .main-glasses-product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-glasses-product img, .main-glasses-product-description {
+        width: 90%;
+    }
+
+    .main-glasses-product-img-right {
+        order: -1;
+    }
+
+    .main-description-all-products p {
+        font-size: 1rem;
+    }
 }

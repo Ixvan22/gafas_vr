@@ -4,8 +4,9 @@ img {
 
 .footer {
     padding: 40px 10vh;
-    background-color: black;
+    background-color: #000000;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #ffffff;
 }
@@ -47,4 +48,32 @@ img {
     cursor: pointer;
     height: 50px;
     width: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        align-content: center;
+        gap: 50px;
+        padding: 40px 0;
+    }
+
+    .footer-legal-terms {
+        width: 90%;
+    }
+
+    .footer-image {
+        order: -2;
+        margin: 0 auto;
+    }
+        
+    .footer-social-networks {
+        width: 90%;
+        order: -3;
+    }
+
+    .footer-social-networks-images {
+        width: 90%;
+        justify-content: space-evenly;
+    }
 }
