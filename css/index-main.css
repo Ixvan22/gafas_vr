@@ -21,6 +21,12 @@ img {
 .main-glasses-product img {
     width: 40%;
     object-fit: cover;
+    border-radius: 12px;
+    border: 0.1rem solid black;
+}
+
+.main-glasses-product img:hover {
+    transform: scale();
 }
 
 .main-glasses-product-description {

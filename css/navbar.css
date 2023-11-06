@@ -60,7 +60,20 @@ background-color: #ffffff;
     justify-content: center;
 }
 
-.navbar-title h1 {
+.navbar-logo-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar-logo h1 {
+    width: max-content;
+    cursor: pointer;
+}
+
+.navbar-logo img {
+    height: 6vh;
     cursor: pointer;
 }
 
