@@ -61,6 +61,7 @@ background-color: #ffffff;
 }
 
 .navbar-logo-display {
+    border: 0.1rem solid red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,6 +102,11 @@ background-color: #ffffff;
 @media only screen and (max-width: 700px) {
     .navbar {
         grid-template-columns: 30vw auto;
+    }
+
+    .navbar-logo-display {
+        width: max-content;
+        padding-left: 10px;
     }
     
     .nav-bars-icon {
