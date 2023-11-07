@@ -72,6 +72,9 @@ background-color: #ffffff;
 .navbar-logo h1 {
     width: max-content;
     cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
 }
 
 .navbar-logo img {
