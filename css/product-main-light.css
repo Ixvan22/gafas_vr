@@ -30,6 +30,7 @@
 }
 
 .button-buy button {
+    color: #000000;
     background-color: #97A4A6;
     box-shadow: 1px -1px 31px -6px #131D26;
 }
