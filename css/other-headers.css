@@ -6,7 +6,7 @@ img {
     height: 40vh;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     border-bottom: 5px solid black;
 }
 
@@ -21,7 +21,6 @@ img {
 
 .header-title {
     width: max-content;
-    padding-bottom: 15px;
     color: #ffffff;
     text-transform: uppercase;
 }
