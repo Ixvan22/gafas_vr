@@ -1,5 +1,5 @@
 function cambio( sen){        
-    let carrusel = document.getElementById('centro');
+    let carrusel = document.getElementById('center-image');
     carrusel.contador+= sen;
     if ( carrusel.contador == carrusel.lista.length){
          carrusel.contador = 0;
@@ -11,7 +11,7 @@ function cambio( sen){
  }
  
 function reset(){
-    let carrusel = document.getElementById('centro');
+    let carrusel = document.getElementById('center-image');
     carrusel.lista = new Array('img/oculus1.webp', 'img/oculus1.webp', 'img/oculus1.webp');
     carrusel.contador = 0;
     carrusel.tempor = null;
