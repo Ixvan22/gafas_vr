@@ -31,5 +31,9 @@
 .button-submit {
     background-color: #3B5159;
     color: #ffffff;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: 1px -1px 31px -6px #97A4A6;
+}
+
+.button-submit:hover {
+    box-shadow: 1px -1px 31px -6px #131D26;
 }
