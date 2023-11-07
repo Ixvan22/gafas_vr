@@ -1,9 +1,10 @@
 .product-main{
+    margin-top: 8vh;
     display: flex;
     align-items: center;
 }
 .product-container{
-    padding: 15vh 0;
+    padding: 10vh 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

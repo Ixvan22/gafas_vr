@@ -46,6 +46,7 @@ background-color: #ffffff;
 }
 
 .navbar--fixed {
+    position: absolute;
     height: 8vh;
     background-color: #101116;
     transition: .5s;
