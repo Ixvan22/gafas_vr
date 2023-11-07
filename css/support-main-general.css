@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Varela+Round&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -13,6 +15,7 @@
 }
 
 .input-section {
+    font-size: 18px;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -23,7 +26,9 @@
 }
 
 .input-section label {
-    min-width: 175px;
+    min-width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .input-section input, .input-section textarea {
@@ -31,6 +36,9 @@
     padding: 12px 5px;
     border-radius: 8px;
     outline: none;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .input-section textarea {
@@ -56,6 +64,8 @@
 }
 
 .button-submit {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
     padding: 12px 40px;
     border-radius: 12px;
     width: max-content;

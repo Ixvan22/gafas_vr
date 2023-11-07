@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Varela+Round&display=swap');
+
 img {
     max-width: 100%;
 }
@@ -24,6 +26,7 @@ img {
 }
 
 .experience-title {
+
     border-radius: 20px;
     position: absolute;
     top: 0;
@@ -36,6 +39,11 @@ img {
     opacity: .95;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+.experience-title h1 {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 10px;
 }
 
 .experience-list:hover .experience-title {

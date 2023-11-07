@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Varela+Round&display=swap');
+
 img {
     max-width: 100%;
 }
 
 .index-main {
+    font-family: 'Quicksand', sans-serif;
     padding: 12vh 0;
     display: flex;
     flex-direction: column;
@@ -49,6 +52,8 @@ img {
 }
 
 .main-glasses-product-button, .main-button-all-products {
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 2px;
     padding: 12px 40px;
     border-radius: 12px;
     width: max-content;

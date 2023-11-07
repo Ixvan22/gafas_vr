@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Varela+Round&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -52,7 +54,7 @@ background-color: #ffffff;
 }
 
 .navbar-title {
-    font-family: monospace;
+    font-family: 'Varela Round', sans-serif;
     letter-spacing: 5px;
     height: 100%;
     display: flex;
@@ -79,7 +81,7 @@ background-color: #ffffff;
 
 .navbar-list {
     margin-right: 30px;
-    font-family: sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     letter-spacing: 1.5px;
     font-size: 22px;
     height: 100%;
