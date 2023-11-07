@@ -1,43 +1,67 @@
 .product-main{
-    width: 100%;
+    display: flex;
+    align-items: center;
 }
 .product-container{
-    padding: 20vh 0;
+    padding: 15vh 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
 }
+
 .info-container{
+    width: 40%;
     text-align: justify;
 }
+
 .carrousel-container{
+    width: 40%;
     display: flex;
     align-items: center;
-    padding: 0 10;
 }
+
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
     'GRAD' 0,
-    'opsz' 24
+    'opsz' 24;
+    position: relative;
+    color: #ffffff;
 }
-span{
+
+#arrow-left {
+    left: 40px;
+}
+
+#arrow-right {
+    right: 40px;
+}
+
+.material-symbols-outlined {
     padding: 10px;
-}
-span:hover{
     cursor: pointer;
 }
+
+.product-container-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
 .characteristics-list{
     padding-left: 20px;
     padding-top: 30px;
     text-align: left;
 }
-.button{
+
+.button-buy {
     display: flex;
-    padding-top: 50px;
+    margin-top: 50px;
 }
-button{
+
+.button-buy button{
     padding: 10px 30px;
     border-radius: 30px;
     background-color: black;
@@ -45,4 +69,53 @@ button{
     width: max-content;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .product-container {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .carrousel-container {
+        width: 100%;
+    }
+
+    .info-container {
+        width: 80%;
+    }
+
+    .info-container h1 {
+        text-align: center;
+    }
+
+    .characteristics-list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .material-symbols-outlined {
+        position: absolute;
+        color: #ffffff;
+    }
+
+    #arrow-left {
+        left: 20px;
+    }
+    
+    #arrow-right {
+        right: 20px;
+    }
+
+    .button-buy {
+        width: max-content;
+        margin: 50px auto;
+        
+    }
 }

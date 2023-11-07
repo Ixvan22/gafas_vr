@@ -12,7 +12,7 @@ function cambio( sen){
  
 function reset(){
     let carrusel = document.getElementById('centro');
-    carrusel.lista = new Array('/img/1.jfif', '/img/2.jfif', '/img/3.jfif');
+    carrusel.lista = new Array('/img/oculus1.webp', '/img/oculus1.webp', '/img/oculus1.webp');
     carrusel.contador = 0;
     carrusel.tempor = null;
     carrusel.src = carrusel.lista[0]
