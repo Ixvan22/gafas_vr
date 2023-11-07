@@ -41,7 +41,7 @@ img {
 }
 
 .main-glasses-product-image {
-    width: 40%;
+    max-width: 40%;
     height: 400px;
     object-fit: cover;
     border-radius: 12px;
@@ -122,6 +122,7 @@ img {
     }
 
     .main-glasses-product-image, .main-glasses-product-description {
+        max-width: 100%;
         width: 90%;
     }
 
