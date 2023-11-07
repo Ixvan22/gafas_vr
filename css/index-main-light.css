@@ -28,5 +28,9 @@
 
 .main-glasses-product-button, .main-button-all-products {
     background-color: #97A4A6;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    box-shadow: 1px -1px 31px -6px #131D26;
+}
+
+.main-glasses-product-button:hover, .main-button-all-products:hover {
+    box-shadow: 1px -1px 31px -6px #97A4A6;
 }
