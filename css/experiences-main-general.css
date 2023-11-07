@@ -57,3 +57,25 @@ img {
     border-radius: 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .experience-list {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .experience-list {
+        width: 300px;
+        min-width: 0;
+    }
+    
+    .experience-title, .experience-source {
+        height: 300px;
+        width: 300px;
+    }
+
+    .experience-title h1 {
+        letter-spacing: 5px;
+    }
+
+}
