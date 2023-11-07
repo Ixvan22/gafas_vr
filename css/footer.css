@@ -72,9 +72,7 @@ img {
     }
 
     .footer-image {
-        order: -2;
-        margin: 0 auto;
-        height: 75px;
+        display: none;
     }
         
     .footer-social-networks {
