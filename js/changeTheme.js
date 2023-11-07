@@ -15,14 +15,11 @@ function changeTheme(type, page) {
     else if (type == "light") {
         ICON_LIGHT.classList.add('navbar-theme-icon-hidden');
         ICON_DARK.classList.remove('navbar-theme-icon-hidden');
-        console.log(`css/${page}-main-light.css`);
         STYLESHEET.setAttribute('href', `css/${page}-main-light.css`);
         localStorage.removeItem("stylesheet");
         localStorage.setItem('stylesheet', 'light');
     }
 }
-
-console.log(localStorage.getItem("stylesheet"));
 
 function translatePathName (pathname) {
     if (pathname === "experiencias") pathname = "experiences";
@@ -33,6 +30,5 @@ function translatePathName (pathname) {
 if (localStorage.getItem("stylesheet") != null) {
     let location = window.location.pathname;
     let pathname = translatePathName(location.substring(1, location.length - 5));
-    console.log(pathname);
     changeTheme(localStorage.getItem('stylesheet'), pathname);
 }
