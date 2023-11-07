@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css"/>
+    <link rel="stylesheet" href="css/other-headers.css"/>
+    <link rel="stylesheet" id="stylesheet-theme" href=""/>
     <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/faq-main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"/>
-    <title>Document</title>
+    <link rel="icon" href="img/logo-icon-page.png" type="image/png" />
+    <link rel="shortcut icon" href="img/logo-icon-page.png" type="image/png" />
+    <title>Experiencias</title>
 </head>
 <body>
     <div class="container">
@@ -27,26 +32,37 @@
             </ul>
             <div class="theme-icons">
                 <i class="fa-solid fa-sun navbar-theme-icon" 
-                id="navbar-theme-icon-sun" style="color: #ffffff;" onclick="changeTheme('light')"></i>
+                id="navbar-theme-icon-sun" style="color: #ffffff;" onclick="changeTheme('light', 'experiences')"></i>
                 <i class="fa-solid fa-moon navbar-theme-icon navbar-theme-icon-hidden" 
-                id="navbar-theme-icon-moon" style="color: #ffffff;" onclick="changeTheme('dark')"></i>
+                id="navbar-theme-icon-moon" style="color: #ffffff;" onclick="changeTheme('dark', 'experiences')"></i>
             </div>
             
             <div class="nav-bars-icon" id="nav-bars-icon"><i class="fas fa-bars" style="color: #ffffff;"></i></div>
         </nav>
-        <div class="faq-header">
-
-        </div>
-        <main class="main">
-
+        
+        <header class="other-headers">
+            <img src="https://picsum.photos/id/1076/600/400" alt="" class="background-image">
+            <h1 class="header-title">Preguntas frecuentes</h1>
+        </header>
+        
+        <main class="faq-main">
+            <div class="faq-container">
+                <div class="search-bar">
+                    <input type="text" name="search" id="search">
+                </div>
+                <div class="questions-container">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium asperiores dolor praesentium, iure eum aperiam esse est cumque assumenda magni voluptatibus officiis. Necessitatibus iusto quidem dolorem magni quia dolore fugit.
+                </div>
+            </div>
         </main>
+        
         <footer class="footer">
             <div class="footer-legal-terms">
                 <p>Aviso legal</p>
                 <p>Política de privacidad</p>
                 <p>Términos y condiciones</p>
             </div>
-            <img src="https://picsum.photos/id/945/600/400" alt="" class="footer-image">
+            <img src="img/logo.png" alt="" class="footer-image">
             <div class="footer-social-networks">
                 <p>Redes sociales</p>
                 <div class="footer-social-networks-images">
@@ -56,9 +72,9 @@
                 </div>
             </div>
         </footer>
-        <script type="text/javascript" src="js/responsiveNavbar.js"></script>
-        <script type="text/javascript" src="js/stickyNavbar.js"></script>
-        <script type="text/javascript" src="js/changeTheme.js"></script>
     </div>
+    <script type="text/javascript" src="js/responsiveNavbar.js"></script>
+    <script type="text/javascript" src="js/stickyNavbar.js"></script>
+    <script type="text/javascript" src="js/changeTheme.js"></script>
 </body>
 </html>
