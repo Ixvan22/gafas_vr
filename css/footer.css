@@ -22,6 +22,10 @@ img {
     font-size: 1.2rem;
 }
 
+.footer-legal-terms p {
+    cursor: pointer;
+}
+
 .footer-image {
     height: 150px;
     width: max-content;
