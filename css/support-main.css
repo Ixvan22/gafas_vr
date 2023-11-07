@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.support-main {
+    width: 100%;
+}
+
+.container-form {
+    padding: 10vh 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.input-section:last-child {
+    margin-bottom: 0;
+}
+
+.input-section label {
+    min-width: 175px;
+}
+
+.input-section input, .input-section textarea {
+    width: 90%;
+    padding: 12px 5px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #101116;
+}
+
+.input-section textarea {
+    height: 200px;
+    resize: none;
+}
+
+
+.input-section textarea::-webkit-scrollbar {
+    margin-right: 10px;
+    width: 5px;
+}
+
+.input-section textarea::-webkit-scrollbar-thumb:vertical {
+    background-color: #101116;
+    border-radius: 12px;
+}
+
+.input-button {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.button-submit {
+    padding: 5px 40px;
+    border-radius: 12px;
+    background-color: black;
+    color: #ffffff;
+    width: max-content;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

@@ -13,11 +13,13 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 25px;
 }
 
 .experience-list {
     position: relative;
     width: 40%;
+    min-width: 400px;
     cursor: pointer;
 }
 
@@ -44,7 +46,7 @@ img {
 .experience-source {
     height: 400px;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 20px;
 }
 
