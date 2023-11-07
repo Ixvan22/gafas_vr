@@ -22,6 +22,7 @@ function changeTheme(type, page) {
 function translatePathName (pathname) {
     if (pathname === "experiencias") pathname = "experiences";
     else if (pathname === "soporte") pathname = "support";
+    else if (pathname === "producto1") pathname = "product";
     else pathname = "index";
     return pathname;
 }

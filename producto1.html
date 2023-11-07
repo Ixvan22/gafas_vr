@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/navbar.css"/>
     <link rel="stylesheet" href="css/footer.css"/>
-    <link rel="stylesheet" href="css/product-main.css">
+    <link rel="stylesheet" href="css/product-main.css"/>
+    <link rel="stylesheet" id="stylesheet-theme" href=""/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="icon" href="img/logo-icon-page.png" type="image/png" />
@@ -29,6 +30,13 @@
                 <li class="navbar-list-link"><a href="faq.html">FAQ</a></li>
                 <li class="navbar-list-link"><a href="soporte.html">Soporte</a></li>
             </ul>
+            <div class="theme-icons">
+                <i class="fa-solid fa-sun navbar-theme-icon" 
+                id="navbar-theme-icon-sun" style="color: #ffffff;" onclick="changeTheme('light', 'product')"></i>
+                <i class="fa-solid fa-moon navbar-theme-icon navbar-theme-icon-hidden" 
+                id="navbar-theme-icon-moon" style="color: #ffffff;" onclick="changeTheme('dark', 'product')"></i>
+            </div>
+            
             <div class="nav-bars-icon" id="nav-bars-icon"><i class="fas fa-bars" style="color: #ffffff;"></i></div>
         </nav>
         <main class="product-main">
@@ -78,6 +86,7 @@
         </footer>
     </div>
     <script type="text/javascript" src="js/responsiveNavbar.js"></script>
+    <script type="text/javascript" src="js/changeTheme.js"></script>
     <script type="text/javascript" src="js/carrousel.js"></script>
 </body>
 </html>

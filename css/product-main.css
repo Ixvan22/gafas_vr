@@ -1,10 +1,11 @@
-.product-main{
+.product-main {
     min-height: 80vh;
     margin-top: 8vh;
     display: flex;
     align-items: center;
 }
-.product-container{
+
+.product-container {
     padding: 10vh 0;
     display: flex;
     flex-wrap: wrap;
@@ -12,12 +13,12 @@
     align-content: center;
 }
 
-.info-container{
+.info-container {
     width: 40%;
     text-align: justify;
 }
 
-.carrousel-container{
+.carrousel-container {
     width: 40%;
     display: flex;
     align-items: center;
@@ -30,7 +31,6 @@
     'GRAD' 0,
     'opsz' 24;
     position: relative;
-    color: #ffffff;
 }
 
 #arrow-left {
@@ -63,10 +63,10 @@
     margin-top: 50px;
 }
 
-.button-buy button{
+.button-buy button {
+    border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: black;
     color: #ffffff;
     width: max-content;
     font-size: 1.2rem;
@@ -104,7 +104,6 @@
 
     .material-symbols-outlined {
         position: absolute;
-        color: #ffffff;
     }
 
     #arrow-left {
