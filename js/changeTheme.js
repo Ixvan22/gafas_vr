@@ -13,7 +13,6 @@ function changeTheme(type, page) {
         localStorage.setItem('stylesheet', 'dark');
     }
     else if (type == "light") {
-        console.log("Entra");
         ICON_LIGHT.classList.add('navbar-theme-icon-hidden');
         ICON_DARK.classList.remove('navbar-theme-icon-hidden');
         console.log(`css/${page}-main-light.css`);
@@ -34,5 +33,6 @@ function translatePathName (pathname) {
 if (localStorage.getItem("stylesheet") != null) {
     let location = window.location.pathname;
     let pathname = translatePathName(location.substring(1, location.length - 5));
+    console.log(pathname);
     changeTheme(localStorage.getItem('stylesheet'), pathname);
 }
