@@ -4,7 +4,6 @@ img {
 
 .other-headers {
     height: 40vh;
-    border: 0.1rem solid red;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -20,7 +19,6 @@ img {
 }
 
 .header-title {
-    border: 0.1rem solid red;
     width: max-content;
     padding-bottom: 15px;
     color: #ffffff;
