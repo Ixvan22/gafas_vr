@@ -126,6 +126,10 @@ img {
         width: 90%;
     }
 
+    .main-glasses-product-image {
+        height: 200px;
+    }
+
     .main-glasses-product-img-right {
         order: -1;
     }

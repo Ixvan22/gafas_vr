@@ -10,16 +10,28 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar" id="navbar">
-            <div class="navbar-title">
-                <a href="index.html"><h1>LOGO</h1></a>
+        <nav class="navbar navbar--fixed" id="navbar">
+            <div class="navbar-logo">
+                <a href="index.html" class="navbar-logo-display">
+                    <img src="img/logo.png" alt="LOGO"/>
+                    <h1>LOGO</h1>
+                </a>
             </div>
             
             <ul class="navbar-list" id="navbar-list">
                 <li class="navbar-list-link"><a href="index.html">Inicio</a></li>
                 <li class="navbar-list-link"><a href="productos.html">Productos</a></li>
+                <li class="navbar-list-link"><a href="experiencias.html">Experiencias</a></li>
                 <li class="navbar-list-link"><a href="faq.html">FAQ</a></li>
+                <li class="navbar-list-link"><a href="soporte.html">Soporte</a></li>
             </ul>
+            <div class="theme-icons">
+                <i class="fa-solid fa-sun navbar-theme-icon" 
+                id="navbar-theme-icon-sun" style="color: #ffffff;" onclick="changeTheme('light')"></i>
+                <i class="fa-solid fa-moon navbar-theme-icon navbar-theme-icon-hidden" 
+                id="navbar-theme-icon-moon" style="color: #ffffff;" onclick="changeTheme('dark')"></i>
+            </div>
+            
             <div class="nav-bars-icon" id="nav-bars-icon"><i class="fas fa-bars" style="color: #ffffff;"></i></div>
         </nav>
         <div class="faq-header">
@@ -46,6 +58,7 @@
         </footer>
         <script type="text/javascript" src="js/responsiveNavbar.js"></script>
         <script type="text/javascript" src="js/stickyNavbar.js"></script>
+        <script type="text/javascript" src="js/changeTheme.js"></script>
     </div>
 </body>
 </html>

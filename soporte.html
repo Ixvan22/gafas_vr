@@ -29,6 +29,13 @@
                 <li class="navbar-list-link"><a href="faq.html">FAQ</a></li>
                 <li class="navbar-list-link"><a href="soporte.html">Soporte</a></li>
             </ul>
+            <div class="theme-icons">
+                <i class="fa-solid fa-sun navbar-theme-icon" 
+                id="navbar-theme-icon-sun" style="color: #ffffff;" onclick="changeTheme('light')"></i>
+                <i class="fa-solid fa-moon navbar-theme-icon navbar-theme-icon-hidden" 
+                id="navbar-theme-icon-moon" style="color: #ffffff;" onclick="changeTheme('dark')"></i>
+            </div>
+            
             <div class="nav-bars-icon" id="nav-bars-icon"><i class="fas fa-bars" style="color: #ffffff;"></i></div>
         </nav>
         
@@ -83,5 +90,6 @@
         </footer>
     </div>
     <script type="text/javascript" src="js/responsiveNavbar.js"></script>
+    <script type="text/javascript" src="js/changeTheme.js"></script>
 </body>
 </html>
