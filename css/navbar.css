@@ -46,7 +46,6 @@ background-color: #ffffff;
 }
 
 .navbar--fixed {
-    position: absolute;
     height: 8vh;
     background-color: #101116;
     transition: .5s;
@@ -79,6 +78,8 @@ background-color: #ffffff;
 }
 
 .navbar-list {
+    border: 0.1rem solid red;
+    margin-right: 20px;
     font-family: sans-serif;
     letter-spacing: 1.5px;
     font-size: 22px;
@@ -94,9 +95,24 @@ background-color: #ffffff;
     cursor: pointer;
 }
 
-
 .nav-bars-icon {
     display: none;
+}
+
+.theme-icons {
+    border: 0.1rem solid red;
+    width: max-content;
+    position: absolute;
+    right: 0;
+}
+
+.navbar-theme-icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navbar-theme-icon-hidden {
+    display: none !important;
 }
 
 @media only screen and (max-width: 900px) {
@@ -116,7 +132,7 @@ background-color: #ffffff;
         cursor: pointer;
         font-size: 24px;
         text-align: right;
-        margin-right: 4vw;
+        margin-right: 30px;
     }
 
     .navbar-list {
