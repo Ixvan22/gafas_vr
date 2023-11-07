@@ -1,7 +1,5 @@
 function changeTheme(type, page) {
-
     let STYLESHEET = document.getElementById('stylesheet-theme');
-
     let ICON_LIGHT = document.getElementById('navbar-theme-icon-sun');
     let ICON_DARK = document.getElementById('navbar-theme-icon-moon');
 
@@ -24,6 +22,7 @@ function changeTheme(type, page) {
 function translatePathName (pathname) {
     if (pathname === "experiencias") pathname = "experiences";
     else if (pathname === "soporte") pathname = "support";
+    else pathname = "index";
     return pathname;
 }
 
@@ -31,4 +30,10 @@ if (localStorage.getItem("stylesheet") != null) {
     let location = window.location.pathname;
     let pathname = translatePathName(location.substring(1, location.length - 5));
     changeTheme(localStorage.getItem('stylesheet'), pathname);
+}
+else {
+    console.log("aqui");
+    let location = window.location.pathname;
+    let pathname = translatePathName(location.substring(1, location.length - 5));
+    changeTheme('dark', pathname);
 }
