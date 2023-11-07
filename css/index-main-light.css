@@ -25,6 +25,9 @@
     color: #000000;
 }
 
+.main-glasses-product-image {
+    border: 4px solid #131D26;
+}
 
 .main-glasses-product-button, .main-button-all-products {
     background-color: #97A4A6;
