@@ -1,52 +1,29 @@
-img {
-    max-width: 100%;
-}
+/* Color Theme Swatches in Hex */
+.color-theme_logo-1-hex { color: #131D26; }
+.color-theme_logo-2-hex { color: #293940; }
+.color-theme_logo-3-hex { color: #3B5159; }
+.color-theme_logo-4-hex { color: #97A4A6; }
+.color-theme_logo-5-hex { color: #F2F2F0; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme_logo-1-rgba { color: rgba(19, 29, 38, 1); }
+.color-theme_logo-2-rgba { color: rgba(41, 57, 64, 1); }
+.color-theme_logo-3-rgba { color: rgba(59, 81, 89, 1); }
+.color-theme_logo-4-rgba { color: rgba(151, 164, 166, 1); }
+.color-theme_logo-5-rgba { color: rgba(242, 242, 240, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-theme_logo-1-hsla { color: hsla(208, 33, 11, 1); }
+.color-theme_logo-2-hsla { color: hsla(198, 21, 20, 1); }
+.color-theme_logo-3-hsla { color: hsla(195, 20, 29, 1); }
+.color-theme_logo-4-hsla { color: hsla(187, 7, 62, 1); }
+.color-theme_logo-5-hsla { color: hsla(60, 7, 94, 1); }
 
 .experiences-main {
-    width: 100%;
-}
-
-.experiences-container {
-    padding: 10vh 0;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 25px;
-}
-
-.experience-list {
-    position: relative;
-    width: 40%;
-    min-width: 400px;
-    cursor: pointer;
+    background-color: #F2F2F0;
 }
 
 .experience-title {
-    border-radius: 20px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #444444;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    transition: .5s;
-    opacity: .95;
+    background-color: #97A4A6;
+    color: #000000;
 }
-
-.experience-list:hover .experience-title {
-    opacity: 0;
-    transition: .5s;
-}
-
-.experience-source {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
