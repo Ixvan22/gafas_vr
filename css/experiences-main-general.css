@@ -22,7 +22,6 @@ img {
     position: relative;
     width: 40%;
     min-width: 400px;
-    cursor: pointer;
 }
 
 .experience-title {
@@ -44,6 +43,7 @@ img {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 10px;
     font-size: 22px;
+    cursor: default;
 }
 
 .experience-list:hover .experience-title {
