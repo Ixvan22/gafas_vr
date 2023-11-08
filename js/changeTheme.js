@@ -3,6 +3,7 @@ function changeTheme(type, page) {
     let ICON_LIGHT = document.getElementById('navbar-theme-icon-sun');
     let ICON_DARK = document.getElementById('navbar-theme-icon-moon');
 
+    console.log(page);
     if (type == "dark") {
         ICON_DARK.classList.add('navbar-theme-icon-hidden');
         ICON_LIGHT.classList.remove('navbar-theme-icon-hidden');
@@ -23,6 +24,7 @@ function translatePathName (pathname) {
     if (pathname === "experiencias") pathname = "experiences";
     else if (pathname === "soporte") pathname = "support";
     else if (pathname.slice(0, -1) === "producto") pathname = "product";
+    else if (pathname === "faq") pathname = "faq";
     else pathname = "index";
     return pathname;
 }
@@ -30,6 +32,7 @@ function translatePathName (pathname) {
 if (localStorage.getItem("stylesheet") != null) {
     let location = window.location.pathname;
     let pathname = translatePathName(location.substring(1, location.length - 5));
+    
     changeTheme(localStorage.getItem('stylesheet'), pathname);
 }
 else {
