@@ -3,7 +3,6 @@ function changeTheme(type, page) {
     let ICON_LIGHT = document.getElementById('navbar-theme-icon-sun');
     let ICON_DARK = document.getElementById('navbar-theme-icon-moon');
 
-    console.log(page);
     if (type == "dark") {
         ICON_DARK.classList.add('navbar-theme-icon-hidden');
         ICON_LIGHT.classList.remove('navbar-theme-icon-hidden');
