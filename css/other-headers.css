@@ -28,6 +28,7 @@ img {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 15px;
     font-weight: bold;
+    text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
