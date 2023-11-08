@@ -6,6 +6,7 @@ function changeTheme(type, page) {
     if (type == "dark") {
         ICON_DARK.classList.add('navbar-theme-icon-hidden');
         ICON_LIGHT.classList.remove('navbar-theme-icon-hidden');
+        console.log(`${page}-main-dark.css`);
         STYLESHEET.setAttribute('href', `css/${page}-main-dark.css`);
         localStorage.removeItem("stylesheet");
         localStorage.setItem('stylesheet', 'dark');
@@ -22,19 +23,20 @@ function changeTheme(type, page) {
 function translatePathName (pathname) {
     if (pathname === "experiencias") pathname = "experiences";
     else if (pathname === "soporte") pathname = "support";
-    else if (pathname === "producto" + "/*/") pathname = "product";
+    else if (pathname.slice(0, -1) === "producto") pathname = "product";
     else pathname = "index";
+    console.log(pathname)
     return pathname;
 }
 
 if (localStorage.getItem("stylesheet") != null) {
     let location = window.location.pathname;
     let pathname = translatePathName(location.substring(1, location.length - 5));
+    console.log("🚀 ~ file: changeTheme.js:35 ~ pathname:", pathname)
     changeTheme(localStorage.getItem('stylesheet'), pathname);
 }
 else {
-    console.log("aqui");
     let location = window.location.pathname;
-    let pathname = translatePathName(location.substring(1, location.length - 5));
+    let pathname = translatePathName(location.substring(1, location.length - 5));    
     changeTheme('dark', pathname);
 }
