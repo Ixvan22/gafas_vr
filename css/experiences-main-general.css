@@ -30,7 +30,7 @@ img {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 400px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,6 +43,7 @@ img {
 .experience-title h1 {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 10px;
+    font-size: 22px;
 }
 
 .experience-list:hover .experience-title {
@@ -51,10 +52,18 @@ img {
 }
 
 .experience-source {
-    height: 400px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+#experience-source-videogame {
+    object-position: right;
+}
+
+#experience-source-drone {
+    object-position: left;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -70,7 +79,7 @@ img {
     }
     
     .experience-title, .experience-source {
-        height: 300px;
+        height: 200px;
         width: 300px;
     }
 
