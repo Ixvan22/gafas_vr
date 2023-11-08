@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Varela+Round&display=swap');
 
+
 .faq-main {
     padding-bottom: 100px;
 }
@@ -26,8 +27,8 @@
     height: 60px;
     width: 100%;
     border-radius: 12px;
-    box-shadow: 10px 5px 5px grey;
-    font-size: 18pt;
+    font-size: 18px;
+    padding: 5px 40px 5px 10px;
 }
 
 
@@ -39,7 +40,6 @@
     'opsz' 24;
     font-size: 20pt;
     cursor: pointer;
-    color: #555;
     position: absolute;
     right: 10px;
   }
@@ -62,7 +62,7 @@
 .questions-title-container {
     height: 100px;
     width: 100%;
-    border: 2px solid;
+    border-radius: 20px;
     padding: 20px 0;
     display: flex;
     align-items: center;
@@ -83,10 +83,11 @@
     display: none;
     transform: translateY(-100%);
     transition: .3s;
-    padding-top: 10px;
     text-align: justify;
-    width: 95%;
+    width: calc(100% - 30px);
+    padding: 20px;
     margin: 0 auto;
+    border-radius: 0 0 12px 12px;
 }
 
 .answer-show {
