@@ -21,12 +21,14 @@ img {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 20px;
 }
 
 .footer-legal-terms p {
     cursor: pointer;
+    width: max-content;
 }
 
 .footer-image {
