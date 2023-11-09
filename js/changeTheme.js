@@ -19,9 +19,10 @@ function changeTheme(type, page) {
     }
 }
 
-function translatePathName (pathname) {
+function translatePathName (pathname) {    
     if (pathname === "experiencias") pathname = "experiences";
     else if (pathname === "soporte") pathname = "support";
+    else if (pathname === "productos") pathname = "products";
     else if (pathname.slice(0, pathname.indexOf("-")) === "producto") pathname = "product";
     else if (pathname === "faq") pathname = "faq";
     else pathname = "index";
