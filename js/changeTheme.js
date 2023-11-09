@@ -35,6 +35,6 @@ if (localStorage.getItem("stylesheet") != null) {
 }
 else {
     let location = window.location.pathname;
-    let pathname = translatePathName(location.substring(1, location.length - 5));    
+    let pathname = translatePathName(location.substring(location.lastIndexOf("/") + 1, location.length - 5));    
     changeTheme('dark', pathname);
 }
