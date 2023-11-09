@@ -14,7 +14,7 @@
 
 .search-bar {
     position: relative;
-    width: 60vw;
+    width: 40%;
     margin: 100px;
     display: flex;
     justify-content: space-between;
@@ -45,19 +45,11 @@
     right: 10px;
   }
   
-
-@media only screen and (max-width: 600px) {
-    .search-bar {
-        width: 90vw;
-        margin: 100px 10px;
-    }
-}
-
 .questions-container {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    width: 90%;
+    width: 60%;
 }
 
 .questions-title-container {
@@ -78,9 +70,12 @@
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 2px;
     font-weight: bold;
+    margin: 0 20px;
 }
 
 .answer {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
     display: none;
     transform: translateY(-100%);
     transition: .3s;
@@ -101,4 +96,23 @@
     position: absolute;
     right: 20px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar {
+        width: 90%;
+        margin: 100px 10px;
+    }
+
+    .questions-container {
+        width: 90%;
+    }
+
+    .questions-title-container {
+        justify-content: start;
+    }
+
+    .questions-title {
+        margin: 0 40px 0 20px;
+    }
 }
