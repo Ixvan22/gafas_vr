@@ -30,8 +30,7 @@ function translatePathName (pathname) {
 
 if (localStorage.getItem("stylesheet") != null) {
     let location = window.location.pathname;
-    let pathname = translatePathName(location.substring(1, location.length - 5));
-    
+    let pathname = translatePathName(location.substring(location.lastIndexOf("/") + 1, location.length - 5));
     changeTheme(localStorage.getItem('stylesheet'), pathname);
 }
 else {
