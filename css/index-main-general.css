@@ -9,7 +9,13 @@ img {
     padding: 12vh 0;
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 75px;
+}
+
+.main-glasses-product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .main-glasses-product {
@@ -67,7 +73,7 @@ img {
 }
 
 .index-main-rectangle-video {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     object-fit: cover;
     object-position: center;
