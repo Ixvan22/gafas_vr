@@ -65,7 +65,7 @@
 .product-container-image {
     object-fit: contain;
     height: 100%;
-    width: 100%;
+    width: 50vw;
 }
 
 .characteristics-list {
@@ -116,6 +116,7 @@
     }
 
     .product-container-image {
+        height: 40vh;
         width: 100%;
     }
 
