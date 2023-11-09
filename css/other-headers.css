@@ -9,7 +9,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 5px solid black;
+    border: 5px solid black;
 }
 
 .background-image {
