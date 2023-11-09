@@ -26,7 +26,11 @@
 .search-bar input {
     border: 2px solid #97A4A6;
     box-shadow: 10px 5px 5px #97A4A6;
+    color: #000000;
+}
 
+.search-bar input::placeholder {
+    color: #000000;
 }
 
 .material-symbols-outlined  {

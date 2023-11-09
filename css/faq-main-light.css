@@ -30,6 +30,10 @@
     color: #ffffff;
 }
 
+.search-bar input::placeholder {
+    color: #ffffff;
+}
+
 .material-symbols-outlined  {
     color: #F2F2F0;
   }
