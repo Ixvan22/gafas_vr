@@ -26,7 +26,6 @@ function translatePathName (pathname) {
     else if (pathname.slice(0, pathname.indexOf("-")) === "producto") pathname = "product";
     else if (pathname === "faq") pathname = "faq";
     else pathname = "index";
-    console.log("🚀 ~ file: changeTheme.js:28 ~ translatePathName ~ pathname:", pathname)
     
     return pathname;
 }
