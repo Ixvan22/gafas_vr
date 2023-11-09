@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Varela+Round&display=swap');
+
 img {
     max-width: 100%;
 }
@@ -51,22 +53,29 @@ img {
 
 .product-text h1 {
     font-size: 34px;
+    font-family: 'Comfortaa', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
 }
 
 .product-text h2 {
+    font-family: 'Comfortaa', sans-serif;
+    letter-spacing: 1.5px;
     text-indent: 10px;
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 1.5px;
 }
 
 .product-text p {
+    font-family: 'Quicksand', sans-serif;
     margin-top: 50px;
-    line-height: 1.7em;
+    line-height: 27px;
     font-size: 15px;
     font-weight: lighter;
     text-align: justify;
+    font-size: 20px;
 }
 
 .product-price-btn {
@@ -74,7 +83,7 @@ img {
     text-align: right;
 }
 
-.product-price-btn button {
+.product-price-btn-buy {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 2px;
     padding: 12px 40px;
@@ -109,7 +118,12 @@ img {
         gap: 20px;
     }
 
+    .product-text h1 {
+        font-size: 25px;
+    }
+
     .product-text p  {
         margin-top: 20px;
+        font-size: 14px;
     }
 }
