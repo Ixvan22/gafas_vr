@@ -13,6 +13,7 @@ img {
 }
 
 .background-image {
+    object-fit: cover;
     position: absolute;
     top: 0;
     width: 100%;
