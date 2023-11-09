@@ -22,9 +22,11 @@ function changeTheme(type, page) {
 function translatePathName (pathname) {
     if (pathname === "experiencias") pathname = "experiences";
     else if (pathname === "soporte") pathname = "support";
-    else if (pathname.slice(0, -1) === "producto") pathname = "product";
+    else if (pathname.slice(0, pathname.indexOf("-")) === "producto") pathname = "product";
     else if (pathname === "faq") pathname = "faq";
     else pathname = "index";
+    console.log("🚀 ~ file: changeTheme.js:28 ~ translatePathName ~ pathname:", pathname)
+    
     return pathname;
 }
 
