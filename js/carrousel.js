@@ -27,6 +27,9 @@ function reset(){
         case "producto-samsung-gear-vr":
             carrusel.lista = ['img/products/samsung_gear_vr__1.png', 'img/products/samsung_gear_vr__2.png', 'img/products/samsung_gear_vr__3.png', 'img/products/samsung_gear_vr__4.png'];
             break;
+        case "producto-base-carga":
+            carrusel.lista = ['img/products/charge_base__1.png', 'img/products/charge_base__2.png', 'img/products/charge_base__3.png'];
+            break;
         case "producto-funda-meta-quest-2":
             carrusel.lista = ['img/products/funda_quest__1.png', 'img/products/funda_quest__2.png', 'img/products/funda_quest__3.png'];
             break;
