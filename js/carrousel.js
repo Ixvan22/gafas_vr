@@ -23,6 +23,10 @@ function reset(){
         case "producto-samsung-gear-vr":
             carrusel.lista = ['img/products/samsung_gear_vr__1.png', 'img/products/samsung_gear_vr__2.png', 'img/products/samsung_gear_vr__3.png', 'img/products/samsung_gear_vr__4.png'];
             break;
+        case "producto-funda-meta-quest-2":
+
+            carrusel.lista = ['img/products/funda_quest__1.png', 'img/products/funda_quest__2.png', 'img/products/funda_quest__3.png'];
+            break;
     }
     carrusel.contador = 0;
     carrusel.tempor = null;
