@@ -72,6 +72,7 @@
     padding-left: 20px;
     max-width: 100%;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
@@ -118,6 +119,10 @@
     .product-container-image {
         height: 40vh;
         width: 100%;
+    }
+
+    .characteristics-list {
+        align-items: center;
     }
 
     .info-container {
