@@ -34,7 +34,8 @@
 }
 
 .carrousel-container {
-    width: 40%;
+    width: 40vw;
+    height: 50vh;
     display: flex;
     align-items: center;
 }
@@ -58,14 +59,13 @@
 }
 
 .material-symbols-outlined {
-    padding: 10px;
     cursor: pointer;
 }
 
 .product-container-image {
     object-fit: contain;
     height: 100%;
-    width: 50vw;
+    width: 100%;
 }
 
 .characteristics-list {

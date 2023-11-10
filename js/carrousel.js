@@ -18,10 +18,10 @@ function reset(){
     switch (pathname) {
         case "producto-meta-quest-2":
             console.log("aaa");
-            carrusel.lista = ['img/products/gafas1.png', 'img/products/gafas2.png', 'img/products/gafas3.png'];
+            carrusel.lista = ['img/products/meta_quest__1.png', 'img/products/meta_quest__2.png', 'img/products/meta_quest__3.png'];
             break;
-        case "producto2":
-            carrusel.lista = ['img/products/gafas.png', 'img/products/gafas.png', 'img/products/gafas.png'];
+        case "producto-samsung-gear-vr":
+            carrusel.lista = ['img/products/samsung_gear_vr__1.png', 'img/products/samsung_gear_vr__2.png', 'img/products/samsung_gear_vr__3.png', 'img/products/samsung_gear_vr__4.png'];
             break;
     }
     carrusel.contador = 0;
