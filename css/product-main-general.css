@@ -125,6 +125,10 @@
         align-items: center;
     }
 
+    .characteristics-list li {
+        text-align: center;
+    }
+
     .info-container {
         width: 100%;
     }
